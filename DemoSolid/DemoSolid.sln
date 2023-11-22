@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSolid", "DemoSolid.csproj", "{99A97595-E1AD-460C-B32D-688891E54DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSolid.SRP", "..\DemoSolid.SRP\DemoSolid.SRP.csproj", "{B319E274-AB19-40F6-80B5-8DAC666A4C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSolid.OCP", "..\DemoSolid.OCP\DemoSolid.OCP.csproj", "{DA28D55B-3DCB-41A8-927C-FBEE7A064A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSolid.LSP", "..\DemoSolid.LSP\DemoSolid.LSP.csproj", "{EAEFF040-0C77-4179-A2F1-353DC1F33F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSolid.ISP", "..\DemoSolid.ISP\DemoSolid.ISP.csproj", "{9E2570E8-35E9-4272-9E69-703F7F7114D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSolid.DIP", "..\DemoSolid.DIP\DemoSolid.DIP.csproj", "{77487BE0-3DC3-4A7E-8F47-A78ADA01E069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99A97595-E1AD-460C-B32D-688891E54DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A97595-E1AD-460C-B32D-688891E54DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A97595-E1AD-460C-B32D-688891E54DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A97595-E1AD-460C-B32D-688891E54DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B319E274-AB19-40F6-80B5-8DAC666A4C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B319E274-AB19-40F6-80B5-8DAC666A4C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B319E274-AB19-40F6-80B5-8DAC666A4C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B319E274-AB19-40F6-80B5-8DAC666A4C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA28D55B-3DCB-41A8-927C-FBEE7A064A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA28D55B-3DCB-41A8-927C-FBEE7A064A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA28D55B-3DCB-41A8-927C-FBEE7A064A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA28D55B-3DCB-41A8-927C-FBEE7A064A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEFF040-0C77-4179-A2F1-353DC1F33F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEFF040-0C77-4179-A2F1-353DC1F33F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEFF040-0C77-4179-A2F1-353DC1F33F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEFF040-0C77-4179-A2F1-353DC1F33F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2570E8-35E9-4272-9E69-703F7F7114D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2570E8-35E9-4272-9E69-703F7F7114D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2570E8-35E9-4272-9E69-703F7F7114D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2570E8-35E9-4272-9E69-703F7F7114D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77487BE0-3DC3-4A7E-8F47-A78ADA01E069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77487BE0-3DC3-4A7E-8F47-A78ADA01E069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77487BE0-3DC3-4A7E-8F47-A78ADA01E069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77487BE0-3DC3-4A7E-8F47-A78ADA01E069}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B6160E7-A902-422A-B51F-363649E7AFEA}
+	EndGlobalSection
+EndGlobal

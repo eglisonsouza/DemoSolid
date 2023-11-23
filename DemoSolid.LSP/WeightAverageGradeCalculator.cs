@@ -1,12 +1,19 @@
 ﻿namespace DemoSolid.LSP
 {
-    public class WeightAverageGradeCalculator : SimpleAverageGradeCalculator
+    public class WeightAverageGradeCalculator : IAverageGradeCalculator
     {
-        public WeightAverageGradeCalculator(string subject, int year, int semester) : base(subject, year, semester)
+        public string Subject { get; set; }
+        public int Year { get; set; }
+        public int Semester { get; set; }
+
+        public WeightAverageGradeCalculator(string subject, int year, int semester)
         {
+            Subject = subject;
+            Year = year;
+            Semester = semester;
         }
 
-        public override double Calculate(int[] grades)
+        public double Calculate(int[] grades)
         {
             var average = (grades[0] * 2 + grades[1] * 2 + grades[2] * 3 + grades[3] * 3) / 10;
 

@@ -4,7 +4,7 @@
     {
         public void ConsolidateClass()
         {
-            var averageGradeCalculator = new WeightAverageGradeCalculator("Portugues", 2022, 1);
+            var averageGradeCalculator = new SimpleAverageGradeCalculator("Portugues", 2022, 1);
 
             var defaultYearConsolidateService = new DefaultYearConsolidateService(averageGradeCalculator);
 

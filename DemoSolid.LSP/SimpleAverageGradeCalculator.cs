@@ -1,6 +1,6 @@
 ﻿namespace DemoSolid.LSP
 {
-    public class SimpleAverageGradeCalculator
+    public class SimpleAverageGradeCalculator : IAverageGradeCalculator
     {
         public string Subject { get; set; }
         public int Year { get; set; }
